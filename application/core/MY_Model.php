@@ -366,4 +366,4 @@ class MY_Model2 extends MY_Model {
 
 }
 
-/* End of file */
+/* End of file

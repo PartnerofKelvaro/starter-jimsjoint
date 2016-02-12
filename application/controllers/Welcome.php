@@ -25,6 +25,8 @@ class Welcome extends Application {
 
         // Get all the completed orders
         //FIXME
+        // we must first intiate/load the order class from the model. Auto loaded
+        $completed = $this->orders->some('status', 'c'); //and now we are initializing the model with the perameters
 
         // Build a multi-dimensional array for reporting
         $orders = array();
